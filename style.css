@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    max-width: 1024px;
+}
+
+/* ---------------------------------------------------------------------------------*/
+.background-color {
+    background-color: rgb(252, 245, 255);
+    min-height: 100vh;
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+.title h1{
+    font-family: 'Great Vibes';
+}
+
+
+
+.border {
+    width: 130px;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(177, 150, 0);
+    padding-top: 6px;
+    margin-bottom: 40px;
+}
+
+.btn-container {
+    height: 4rem;
+    margin: 0 auto 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 10px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid rgb(177, 150, 0);
+    letter-spacing: 1px;
+    color: rgb(177, 150, 0);
+    background-color: rgb(252, 245, 255);
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    scale: 1.1;
+}
+
+.menu-item {
+    width: calc(50% - 10px);
+    display: flex;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+        
+}
+
+.img-item {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-item img {
+    width: 180px;
+    object-fit: cover;
+    height: 150px;
+    border: 4px solid rgb(223, 189, 0);
+    border-radius: 10px;
+}
+
+.descricao-item {
+    width: 60%;
+}
+
+.texto-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px dotted #d6b600;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.texto-item h2{
+    text-transform:capitalize ;
+    padding-left: 5px;
+}
+
+.texto-item span{
+    font-weight: bold;
+    color: goldenrod;
+    font-size: 18px;
+}
+.descricao {
+    display: flex;
+    max-height: 80%;
+    align-items: center;
+    justify-content: center;
+    font-size:18px;
+    padding: 10px;
+}
+
+@media (max-width:1024px){
+    .menu{flex-direction: column; align-items: center;}
+    .menu-item{width: 90%; padding-bottom: 35px;}
+    .img-item{width: 40%;}
+    .img-item img{width: 90%;}
+}
