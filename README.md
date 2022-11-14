@@ -1,5 +1,5 @@
 <h1>Cardápio com JS</h1>
-Menu feito para praticar métodos JavaScript
+Menu feito para praticar alguns métodos em JavaScript
 <br><br>
 <img src='assets/to_readme/teste.gif'>
 <br><br>
